@@ -1,0 +1,68 @@
+/*Divs for dividing up the page*/
+.display {
+	width:90%;
+	height:30%;
+	display:inline-block;
+}
+
+.image {
+	width:32%;
+	height:90%;
+	background-color:black;
+	float:left;
+	margin:auto;
+}
+
+.display_text {
+	width:30%;
+	height:90%;
+	float:right;
+	margin: auto;
+	padding:auto;
+}
+
+.center_image {
+	width:30%;
+	height:90%;
+	background-color:black;
+	margin:0 auto;
+}
+
+/*Items that populate divs*/
+.display_image {
+	width:100%;
+	height:100%;
+}
+
+.display_para {
+	font-size: 20px;
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align:left;
+}
+
+/*Items on page*/
+#heading {
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	margin: auto;
+	font-size: 25px;
+	padding-bottom: 2.5%;
+}
+
+#third_item {
+	text-align:left;
+}
+
+#outer {
+	text-align: center;
+}
+
+#inner {
+	display: inline-block;
+}
+
+#middle_image {
+	margin-right:0px;
+	padding-right:0px;
+}
