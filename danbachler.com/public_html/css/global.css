@@ -1,0 +1,55 @@
+.menu-item {
+	border-right: 2px;
+	border-right-color: black;
+	border-right-style: solid;
+	word-spacing: 0px;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+.menu {
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	display: block;	
+	word-spacing: 20px;
+	padding-top: 10px;
+}
+
+.menu-link {
+	color: black;
+	font-size: 20px;
+}
+
+#leftItem {
+	border-right: 0px;
+	font-size: 20px;
+}
+
+#header {
+	
+}
+
+#container {
+	width: 1024	px;
+	margin:auto;
+}
+
+#nav a{
+	color: black;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background-color: black;
+	color: white;
+	text-shadow: none;
+}
+
+body {
+	/*background-image: url(../images/background.jpg);
+	background-size: cover;*/
+	min-width:300px;
+}
