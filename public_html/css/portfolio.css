@@ -1,3 +1,8 @@
+body {
+	background-image: url(../images/clouds.jpg);
+	background-size: cover;
+}
+
 /*Divs for dividing up the page*/
 .display {
 	width:90%;
@@ -13,10 +18,34 @@
 	margin:auto;
 }
 
+.image_single_tall {
+	width:32%;
+	height:100%;
+	background-color:black;
+	float:left;
+	margin:auto;
+}
+
+.image_single {
+	width:64%;
+	height:90%;
+	background-color:black;
+	float:left;
+	margin:auto;
+}
+
 .display_text {
 	width:30%;
 	height:90%;
 	float:right;
+	margin: auto;
+	padding:auto;
+}
+
+.display_text_only {
+	width:30%;
+	height:90%;
+	float:center;
 	margin: auto;
 	padding:auto;
 }
@@ -36,18 +65,22 @@
 
 .display_para {
 	font-size: 20px;
-	color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 	text-align:left;
 }
 
 /*Items on page*/
 #heading {
-	color: white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 	margin: auto;
 	font-size: 25px;
 	padding-bottom: 2.5%;
+}
+
+#web_desc {
+	text-align:center;
 }
 
 #third_item {

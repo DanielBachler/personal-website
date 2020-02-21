@@ -29,13 +29,10 @@
 			<h2 id="heading">Projects</h2>
 			<!--First Item-->
 				<div class="display">
-					<div class="image">
-						<img src="../images/website.png" alt="A picture of the website your using" class="display_image">
-					</div>
-					<div class="display_text">
-						<p class="display_para">
-							This website is created and hosted by myself, the host server is an Ubuntu 18.04 server, running apache2 for web hosting.
-							The website was written in basic HTML and CSS.  No extra features have been added at this time.
+					<div class="display_text_only">
+						<p class="display_para" id="web_desc">
+							This website is created and hosted by myself, the host server is running Windows Server 2019, and uses nginx for web hosting.
+							The website was written in HTML and styled with CSS.
 						</p>
 					</div>
 				</div>
@@ -58,14 +55,29 @@
 				</div>
 			<!--Third Item-->
 				<div class="display">
-					<div class="image">
-						<img src="../images/visiCalc.png" alt="A picture of the the output from the VisiCalc Program" class="display_image">
+					<div class="image_single">
+						<img src="../images/spellchecker.png" alt="A picture of the the output from the spellchecker program" class="display_image">
 					</div>
 					<div class="display_text">
 						<p class="display_para">
-							This is a simple clone of Excel written in Java for my AP computer science class.  I only show it here because I went beyond what was required
-							and included an infinitely expandable cell table, along with true PEMDAS equation solving.  It is one of the first big coding projects I created.
-							<a href="https://github.com/DanielBachler/VisiCalc2.0" class="display_para">Github page</a>
+							This is a basic spell correction program, it uses a lexicon of words and a list of words most likely to be used to attempt and predict corrections.
+							It has around 60% accuracy, most likely due to the way the lexicon is stored.  The lexicon is a 2-D hash, which greatly increases lookup speed for the 
+							corrections.
+							<a href="https://github.com/DanielBachler/spell_checker" class="display_para">Github page</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--Fourth-->
+				<div class="display">
+					<div class="image_single_tall">
+						<img src="../images/aawgame.png" alt="A picture of the the output from the Alice in Wonderland choose your own adventure game" class="display_image">
+					</div>
+					<div class="display_text">
+						<p class="display_para">
+							A choose your own adventure game written in Java for an English class.  It's goal was to be able to play through the original Alice in Wonderland book.
+							It is fairly simplistic, but captures the story of the book well.
+							<a href="https://github.com/DanielBachler/AAW-Adventure-Game" class="display_para">Github page</a>
 						</p>
 					</div>
 				</div>
