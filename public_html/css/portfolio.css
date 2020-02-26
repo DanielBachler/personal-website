@@ -99,3 +99,11 @@ body {
 	margin-right:0px;
 	padding-right:0px;
 }
+
+.WS_image {
+	width:20%;
+	height:90%;
+	/*background-color:black;*/
+	float:left;
+	margin:auto;
+}
